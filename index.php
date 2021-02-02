@@ -15,7 +15,7 @@
 
     <!-- SITE RESOURCES -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
-    <!--    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@400;700&display=swap" rel="stylesheet" type="text/css">-->
+    <!--<link href="https://fonts.googleapis.com/css?family=Poppins:wght@400;700&display=swap" rel="stylesheet" type="text/css">-->
     <script src="https://kit.fontawesome.com/c642229718.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" type="image/png" href="img\favicon.png">
@@ -29,14 +29,31 @@
     <div class="wrapper">
 
         <!-- NAVBAR -->
-        <header>
-            <img src="img\portfolio-logo.png" class="header-logo" alt="Portfolio Logo">
+        <header class="flex-header">
+                <img src="img\portfolio-logo.png" class="header-logo" alt="Portfolio Logo">
+
+                <ul class="nav-links">
+                    <li><a href="#profile-section">Profile</a></li>
+                    <li><a href="#project-section">Showcase</a></li>
+                    <li><a href="#experience-section">Background</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
         </header>
 
         <!-- CONTENT -->
         <div class="content-container">
 
+            <section id="profile-section"></section>
 
+            <section id="interest-section"></section>
+
+            <section id="skill-section"></section>
+
+            <section id="project-section"></section>
+
+            <section id="experience-section"></section>
+
+            <section id="education-section"></section>
 
         </div>
 
