@@ -47,26 +47,45 @@
         <!-- CONTENT -->
         <div class="content-container">
 
-            <section id="profile-section">
-                <div class="section-title">Profile</div>
-                <hr />
+            <section id="profile-section" class="flex-vertical">
+                <div class="profile-container flex-horizontal">
+                    <img src="profile-headshot.jpeg" class="profile-img" alt="Professional Profile Headshot">
 
-            </section>
+                    <div class="flex-vertical">
+                        <div class="section-title">Profile</div>
 
-            <br />
+                        <div class="section-content">
+                            <p>Enthusiastic and detail-oriented Software Engineering Undergraduate at Liverpool John Moore’s University offering a pro-active approach and driven to successfully finish projects and meet all assigned goals and objectives within schedule. <wbr />Experienced and proficient using tools throughout the project development lifecycle. <wbr />I am able to think critically and problematically, self-manage and collaborate effectively engaging as part of a productive team.</p>
+                        </div>
+                    </div>
+                </div>
 
-            <section id="interest-section">
-                <div class="section-title">Interests</div>
-                <hr />
+                <br />
 
-            </section>
+                <div class="flex-col">
+                    <div class="skill-container flex-vertical">
+                        <div class="section-title">Proficient Skills</div>
 
-            <br />
+                        <div class="section-content">
+                            <p>SDLC – Git – Agile (Scrum)</p>
+                            <p>UML – OOD – MVC</p>
+                            <p>VB.NET – Python – Java – PHP7</p>
+                            <p>HTML5 – CSS3 – JavaScript (ES6)</p>
+                            <p>Bootstrap – JQuery</p>
+                            <p>MySQL – JSON – XML</p>
+                        </div>
+                    </div>
 
-            <section id="skill-section">
-                <div class="section-title">Proficient Skills</div>
-                <hr />
+                    <div class="interest-container flex-vertical">
+                        <div class="section-title">Interests</div>
 
+                        <div class="section-content">
+                            <p>React JS Framework</p>
+                            <p>REST API</p>
+                            <p>AWS Web Services</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <br />
