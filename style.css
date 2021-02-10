@@ -28,16 +28,50 @@
 /*--- HEADER ---*/
 header {
     grid-area: header;
+
     width: 100vw;
     min-height: 55px;
     height: auto;
     background-color: #333333;
     color: white;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    align-items: center;
 }
 
 .header-logo {
-    height: 100px;
+    color: white;
+
+    font-family: monospace;
+    /*color: #333333;*/
+    font-weight: 800;
+    font-size: 2rem;
 }
+
+.nav-links li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
 
 
 
@@ -54,6 +88,53 @@ header {
 
 
 
+
+
+/*ARRANGE ELEMENTS*/
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*SECTION CONTAINER*/
+section {
+    background-color: #ffffff;
+    border: 3px solid #f1f1f1;
+    padding-bottom: 15px;
+}
+
+/*
+.sub-section {
+    margin: 15px 0;
+    width: 100%;
+}
+*/
+
+.section-title {
+    color: #333333;
+    font-size: 24px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 15px;
+}
+
+
+
+
+
 /*--- FOOTER ---*/
 footer {
     grid-area: footer;
@@ -61,14 +142,18 @@ footer {
     height: 50px;
     background-color: #333333;
     text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.credit {
-    display: block;
-    color: whitesmoke;
-    font-size: large;
-    margin-top: 12px;
+.footer-credit {
+    font-size: 1.5rem;
 }
+
+
+
 
 @media screen and (min-width: 600px) {
     .content-container {

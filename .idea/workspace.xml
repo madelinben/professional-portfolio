@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d601f9ba-28f3-40ae-921d-4fb94055d735" name="Default Changelist" comment="" />
+    <list default="true" id="d601f9ba-28f3-40ae-921d-4fb94055d735" name="Default Changelist" comment="Initial page structure and navigation organised.">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +40,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7" />
   <component name="ProjectId" id="1nuNOlVJrkGYIf2Y88XhTQS4KPJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,17 +75,58 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612235990495</updated>
-      <workItem from="1612235993490" duration="3406000" />
+      <workItem from="1612235993490" duration="4321000" />
+      <workItem from="1612930654071" duration="4432000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial page structure and navigation organised.">
+      <created>1612239553391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612239553391</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial page structure and navigation organised." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial page structure and navigation organised." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="314" y="163" key="#PHP" timestamp="1612931566395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="314" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1612931566395" />
     <state x="434" y="447" key="NewPhpFileDialog" timestamp="1612236049296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="434" y="447" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612236049296" />
+    <state x="199" y="243" key="Vcs.Push.Dialog.v2" timestamp="1612239557837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="199" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612239557837" />
+    <state x="724" y="0" width="443" height="1047" key="dock-window-1" timestamp="1612991522520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="724" y="0" width="443" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1612991522520" />
+    <state x="29" y="230" key="search.everywhere.popup" timestamp="1612992625050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="29" y="230" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612992625050" />
   </component>
 </project>

@@ -14,8 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SITE RESOURCES -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
-    <!--<link href="https://fonts.googleapis.com/css?family=Poppins:wght@400;700&display=swap" rel="stylesheet" type="text/css">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c642229718.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" type="image/png" href="img\favicon.png">
@@ -30,30 +30,84 @@
 
         <!-- NAVBAR -->
         <header class="flex-header">
-                <img src="img\portfolio-logo.png" class="header-logo" alt="Portfolio Logo">
+            <!--<img src="img\portfolio-logo.png" class="header-logo" alt="Portfolio Logo">-->
+            <h1 class="header-logo">ben madelin.</h1>
 
+            <nav>
                 <ul class="nav-links">
                     <li><a href="#profile-section">Profile</a></li>
                     <li><a href="#project-section">Showcase</a></li>
                     <li><a href="#experience-section">Background</a></li>
                     <li><a href="#contact-section">Contact</a></li>
                 </ul>
+            </nav>
+
         </header>
 
         <!-- CONTENT -->
         <div class="content-container">
 
-            <section id="profile-section"></section>
+            <section id="profile-section">
+                <div class="section-title">Profile</div>
+                <hr />
 
-            <section id="interest-section"></section>
+            </section>
 
-            <section id="skill-section"></section>
+            <br />
 
-            <section id="project-section"></section>
+            <section id="interest-section">
+                <div class="section-title">Interests</div>
+                <hr />
 
-            <section id="experience-section"></section>
+            </section>
 
-            <section id="education-section"></section>
+            <br />
+
+            <section id="skill-section">
+                <div class="section-title">Proficient Skills</div>
+                <hr />
+
+            </section>
+
+            <br />
+
+            <section id="project-section">
+                <div class="section-title">Technical Projects</div>
+                <hr />
+
+            </section>
+
+            <br />
+
+            <section id="experience-section">
+                <div class="section-title">Experience/Employment</div>
+                <hr />
+
+            </section>
+
+            <br />
+
+            <section id="education-section">
+                <div class="section-title">Education</div>
+                <hr />
+
+            </section>
+
+            <br />
+
+            <section id="accomplishment-section">
+                <div class="section-title">Accomplishments</div>
+                <hr />
+
+            </section>
+
+            <br />
+
+            <section id="contact-section">
+                <div class="section-title">Contact</div>
+                <hr />
+
+            </section>
 
         </div>
 
