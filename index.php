@@ -49,7 +49,7 @@
 
             <div id="profile-section section" class="flex-vertical">
                 <section id="profile-container" class="section flex-horizontal">
-                    <img src="profile-headshot.jpeg" class="profile-img" alt="Professional Profile Headshot">
+                    <img src="profile-photo.jpeg" class="profile-img" alt="Professional Profile Headshot">
 
                     <div class="flex-vertical">
                         <div class="section-title">Profile</div>
@@ -57,6 +57,18 @@
                         <div class="section-content">
                             <p>Enthusiastic and detail-oriented Software Engineering Undergraduate at Liverpool John Moore’s University offering a pro-active approach and driven to successfully finish projects and meet all assigned goals and objectives within schedule. <wbr />Experienced and proficient using tools throughout the project development lifecycle. <wbr />I am able to think critically and problematically, self-manage and collaborate effectively engaging as part of a productive team.</p>
                         </div>
+
+                        <div class="section-content hidden">
+                            <p>Or quite simply a professional googler and part time wizard / miracle worker.</p>
+
+                            <p>Check out my socials!</p>
+
+                            <div class="section-interaction">
+                                <a href="https://www.linkedin.com/in/madelinben/"><button>LinkedIn</button></a>
+                                <a href="https://github.com/madelinben/"><button>Git</button></a>
+                            </div>
+                        </div>
+
                     </div>
                 </section>
 
