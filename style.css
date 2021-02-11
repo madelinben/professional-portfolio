@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", "Open Sans", sans-serif;
     font-size: small;
     font-weight: bold;
     text-transform: uppercase;
@@ -45,15 +45,16 @@ header {
 
 .header-logo {
     color: white;
-
-    font-family: monospace;
-    /*color: #333333;*/
-    font-weight: 800;
+    font-weight: 700;
     font-size: 2rem;
 }
 
 .nav-links li {
     display: inline;
+}
+
+ul {
+    list-style-type: none;
 }
 
 a {
@@ -68,13 +69,6 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
 /*--- CONTENT ---*/
 .content-container {
     grid-area: content;
@@ -85,8 +79,6 @@ a:hover {
     display: flex;
     flex-direction: column;
 }
-
-
 
 
 
@@ -114,16 +106,16 @@ a:hover {
     align-items: flex-start;
 }
 
-.flex-col div {
-    width: calc(100% - 15px);
+.flex-col section {
+    width: calc(50% - 10px);
 }
 
 
 
 /*SECTION CONTAINER*/
-section {
+.section {
+    width: 100%;
     background-color: #ffffff;
-    /*border: 3px dotted #f1f1f1;*/
     padding-bottom: 15px;
 }
 
@@ -134,8 +126,8 @@ section {
     height: auto;
     width: 100%;
     text-align: center;
-
     padding: 5px 0;
+    cursor: pointer;
 }
 
 hr {
@@ -143,31 +135,31 @@ hr {
     margin-bottom: 15px;
 }
 
-/*PROFILE*/
-.profile-container {
-    border-radius: 10px;
-    height: auto;
+.section-content {
+    width: 100%;
+    padding: 15px;
+    background-color: #f1f1f1;
 }
 
+.section-content li {
+    text-transform: initial;
+    font-size: 1.15rem;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+section div {
+    width: 100%;
+}
+
+
+
+/*PROFILE*/
 .profile-img {
     height: 20rem;
     border-radius: 10px;
     margin-right: 15px;
 }
-
-.section-content {
-    padding: 15px;
-    background-color: #f1f1f1;
-    /*height: 100%;*/
-}
-
-.section-content p {
-    text-transform: initial;
-    font-size: 1.2rem;
-    padding: 5px 0;
-}
-
-
 
 
 
@@ -187,7 +179,6 @@ footer {
 .footer-credit {
     font-size: 1.5rem;
 }
-
 
 
 

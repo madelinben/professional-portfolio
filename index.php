@@ -45,10 +45,10 @@
         </header>
 
         <!-- CONTENT -->
-        <div class="content-container">
+        <main class="content-container">
 
-            <section id="profile-section" class="flex-vertical">
-                <div class="profile-container flex-horizontal">
+            <div id="profile-section section" class="flex-vertical">
+                <section id="profile-container" class="section flex-horizontal">
                     <img src="profile-headshot.jpeg" class="profile-img" alt="Professional Profile Headshot">
 
                     <div class="flex-vertical">
@@ -58,37 +58,48 @@
                             <p>Enthusiastic and detail-oriented Software Engineering Undergraduate at Liverpool John Moore’s University offering a pro-active approach and driven to successfully finish projects and meet all assigned goals and objectives within schedule. <wbr />Experienced and proficient using tools throughout the project development lifecycle. <wbr />I am able to think critically and problematically, self-manage and collaborate effectively engaging as part of a productive team.</p>
                         </div>
                     </div>
-                </div>
+                </section>
 
                 <br />
 
                 <div class="flex-col">
-                    <div class="skill-container flex-vertical">
+                    <section id="skill-container" class="flex-vertical">
                         <div class="section-title">Proficient Skills</div>
 
                         <div class="section-content">
-                            <p>SDLC – Git – Agile (Scrum)</p>
-                            <p>UML – OOD – MVC</p>
-                            <p>VB.NET – Python – Java – PHP7</p>
-                            <p>HTML5 – CSS3 – JavaScript (ES6)</p>
-                            <p>Bootstrap – JQuery</p>
-                            <p>MySQL – JSON – XML</p>
+                            <ul class="skill-bullet">
+                                <li>SDLC – Git – Agile (Scrum)</li>
+                                <li>UML – OOD – MVC</li>
+                                <li>VB.NET – Python – Java – PHP7</li>
+                                <li>HTML5 – CSS3 – JavaScript (ES6)</li>
+                                <li>Bootstrap – JQuery</li>
+                                <li>MySQL – JSON – XML</li>
+                            </ul>
                         </div>
-                    </div>
+                    </section>
 
-                    <div class="interest-container flex-vertical">
+                    <section id="interest-container" class="flex-vertical">
                         <div class="section-title">Interests</div>
 
                         <div class="section-content">
-                            <p>React JS Framework</p>
-                            <p>REST API</p>
-                            <p>AWS Web Services</p>
+                            <ul class="interest-bullet">
+                                <li>React JS Framework</li>
+                                <li>REST API</li>
+                                <li>AWS Web Services</li>
+                            </ul>
                         </div>
-                    </div>
+                    </section>
                 </div>
-            </section>
+            </div>
 
             <br />
+
+
+
+
+
+
+
 
             <section id="project-section">
                 <div class="section-title">Technical Projects</div>
@@ -128,7 +139,7 @@
 
             </section>
 
-        </div>
+        </main>
 
         <!-- FOOTER -->
         <footer>
@@ -136,5 +147,13 @@
         </footer>
     </div>
 </body>
+
+<script>
+    $(document).ready(function() {
+        $('.section-title').click(function(e) {
+            $(this).parent().children('.section-content').slideToggle();
+        });
+    });
+</script>
 
 </html>
