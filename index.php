@@ -45,42 +45,146 @@
         </header>
 
         <!-- CONTENT -->
-        <div class="content-container">
+        <main class="content-container">
 
-            <section id="profile-section">
-                <div class="section-title">Profile</div>
-                <hr />
+            <div id="profile-section section" class="flex-vertical">
+                <section id="profile-container" class="section flex-horizontal">
+                    <img src="profile-photo.jpeg" class="profile-img" alt="Professional Profile Headshot">
 
-            </section>
+                    <div class="flex-vertical">
+                        <div class="section-title">Profile</div>
+
+                        <div class="section-content">
+                            <p>Enthusiastic and detail-oriented Software Engineering Undergraduate at Liverpool John Moore’s University offering a pro-active approach and driven to successfully finish projects and meet all assigned goals and objectives within schedule. <wbr />Experienced and proficient using tools throughout the project development lifecycle. <wbr />I am able to think critically and problematically, self-manage and collaborate effectively engaging as part of a productive team.</p>
+                        </div>
+
+                        <div class="section-content hidden">
+                            <p>Or quite simply a professional googler and part time wizard / miracle worker.</p>
+
+                            <p>Check out my socials!</p>
+
+                            <div class="section-interaction">
+                                <a href="https://www.linkedin.com/in/madelinben/"><button>LinkedIn</button></a>
+                                <a href="https://github.com/madelinben/"><button>Git</button></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <br />
+
+                <div class="flex-col">
+                    <section id="skill-container" class="flex-vertical">
+                        <div class="section-title">Proficient Skills</div>
+
+                        <div class="section-content">
+                            <ul class="skill-bullet">
+                                <li>SDLC – Git – Agile (Scrum)</li>
+                                <li>UML – OOD – MVC</li>
+                                <li>VB.NET – Python – Java – PHP7</li>
+                                <li>HTML5 – CSS3 – JavaScript (ES6)</li>
+                                <li>Bootstrap – JQuery</li>
+                                <li>MySQL – JSON – XML</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section id="interest-container" class="flex-vertical">
+                        <div class="section-title">Interests</div>
+
+                        <div class="section-content">
+                            <ul class="interest-bullet">
+                                <li>React JS Framework</li>
+                                <li>REST API</li>
+                                <li>AWS Web Services</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
 
             <br />
 
-            <section id="interest-section">
-                <div class="section-title">Interests</div>
-                <hr />
+            <div id="project-section section" class="flex-vertical">
+                <section id="project-container" class="section flex-horizontal">
+                    <div class="flex-vertical">
+                        <div class="section-title">Technical Projects</div>
 
-            </section>
+                        <div class="section-content">
 
-            <br />
+                            <div class="flex-horizontal project-content">
+                                <img src="#" class="project-img" alt="Project Diagram">
+                                <div class="flex-vertical">
+                                    <h2 class="project-title">Electronic Programme Guide</h2>
+                                    <div class="flex-horizontal">
+                                        <p class="project-desc">Dynamic ASCII grid can view live programme data and mark favourite shows for recording. Data is obtained utilising the Bleb API.</p>
+                                        <div class="flex-vertical project-links">
+                                            <a href="#"><button>Demo</button></a>
+                                            <a href="https://github.com/madelinben/programme-guide"><button>Git</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-            <section id="skill-section">
-                <div class="section-title">Proficient Skills</div>
-                <hr />
+                            <br />
 
-            </section>
+                            <div class="flex-horizontal project-content">
+                                <img src="#" class="project-img" alt="Project Diagram">
+                                <div class="flex-vertical">
+                                    <h2 class="project-title">Arcade Canvas</h2>
+                                    <div class="flex-horizontal">
+                                        <p class="project-desc">Responsive web application with account and rankings system, showcasing a collection of canvas mini-games.</p>
+                                        <div class="flex-vertical project-links">
+                                            <a href="#"><button>Demo</button></a>
+                                            <a href="https://github.com/madelinben/arcade-canvas"><button>Git</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-            <br />
+                            <br />
 
-            <section id="project-section">
-                <div class="section-title">Technical Projects</div>
-                <hr />
+                            <div class="flex-horizontal project-content">
+                                <img src="#" class="project-img" alt="Project Diagram">
+                                <div class="flex-vertical">
+                                    <h2 class="project-title">Visual Algorithms</h2>
+                                    <div class="flex-horizontal">
+                                        <p class="project-desc">An animated visualisation of data structures and advanced sorting algorithms.</p>
+                                        <div class="flex-vertical project-links">
+                                            <a href="#"><button>Demo</button></a>
+                                            <a href="https://github.com/madelinben/visual-algorithms"><button>Git</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-            </section>
+                            <br />
+
+                            <div class="flex-horizontal project-content">
+                                <img src="#" class="project-img" alt="Project Diagram">
+                                <div class="flex-vertical">
+                                    <h2 class="project-title">Projectile Simulator</h2>
+                                    <div class="flex-horizontal">
+                                        <p class="project-desc">Student homework application that implements Forms chart element to clearly visualise projectile algorithms and login system that utilises a normalised Access relational database.</p>
+                                        <div class="flex-vertical project-links">
+                                            <a href="#"><button>Demo</button></a>
+                                            <a href="https://github.com/madelinben/projectile-simulator"><button>Git</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                </section>
+            </div>
 
             <br />
 
             <section id="experience-section">
-                <div class="section-title">Experience/Employment</div>
+                <div class="section-title">Experience</div>
                 <hr />
 
             </section>
@@ -109,7 +213,7 @@
 
             </section>
 
-        </div>
+        </main>
 
         <!-- FOOTER -->
         <footer>
@@ -117,5 +221,13 @@
         </footer>
     </div>
 </body>
+
+<script>
+    $(document).ready(function() {
+        $('.section-title').click(function(e) {
+            $(this).parent().children('.section-content').slideToggle();
+        });
+    });
+</script>
 
 </html>
