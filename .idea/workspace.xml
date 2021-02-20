@@ -22,7 +22,6 @@
     <list default="true" id="d601f9ba-28f3-40ae-921d-4fb94055d735" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +113,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial page structure and navigation organised." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial page structure and navigation organised." />
+    <MESSAGE value="Project content styled." />
+    <option name="LAST_COMMIT_MESSAGE" value="Project content styled." />
   </component>
   <component name="WindowStateProjectService">
     <state x="314" y="163" key="#PHP" timestamp="1613860968558">

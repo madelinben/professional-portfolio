@@ -88,6 +88,17 @@
                                 <li>MySQL – JSON – XML</li>
                             </ul>
                         </div>
+
+                        <div class="section-content hidden"> <!--TITLE: Intercommunication Skills-->
+                            <ul class="skill-bullet">
+                                <li>Independently Driven</li>
+                                <li>Creative and Engaged Learner</li>
+                                <li>Interpersonal Communication</li>
+                                <li>Collaborative Problem Solver</li>
+                                <li>Critical Thinker</li>
+                                <li>Team Organisation</li>
+                            </ul>
+                        </div>
                     </section>
 
                     <section id="interest-container" class="flex-vertical">
@@ -98,6 +109,14 @@
                                 <li>React JS Framework</li>
                                 <li>REST API</li>
                                 <li>AWS Web Services</li>
+                            </ul>
+                        </div>
+
+                        <div class="section-content hidden"> <!--TITLE: Hobbies-->
+                            <ul class="skill-bullet">
+                                <li>Tech and Video Games</li>
+                                <li>Running, Karate</li>
+                                <li>Guitar</li>
                             </ul>
                         </div>
                     </section>
