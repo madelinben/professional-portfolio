@@ -106,23 +106,85 @@
 
             <br />
 
+            <div id="project-section section" class="flex-vertical">
+                <section id="project-container" class="section flex-horizontal">
+                    <div class="flex-vertical">
+                        <div class="section-title">Technical Projects</div>
+
+                        <div class="section-content">
+
+                            <div class="flex-horizontal project-content">
+                                <img src="#" class="project-img" alt="Project Diagram">
+                                <div class="flex-vertical">
+                                    <h2 class="project-title">Electronic Programme Guide</h2>
+                                    <div class="flex-horizontal">
+                                        <p class="project-desc">Dynamic ASCII grid can view live programme data and mark favourite shows for recording. Data is obtained utilising the Bleb API.</p>
+                                        <div class="flex-vertical project-links">
+                                            <a href="#"><button>Demo</button></a>
+                                            <a href="https://github.com/madelinben/programme-guide"><button>Git</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br />
+
+                            <div class="flex-horizontal project-content">
+                                <img src="#" class="project-img" alt="Project Diagram">
+                                <div class="flex-vertical">
+                                    <h2 class="project-title">Arcade Canvas</h2>
+                                    <div class="flex-horizontal">
+                                        <p class="project-desc">Responsive web application with account and rankings system, showcasing a collection of canvas mini-games.</p>
+                                        <div class="flex-vertical project-links">
+                                            <a href="#"><button>Demo</button></a>
+                                            <a href="https://github.com/madelinben/arcade-canvas"><button>Git</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br />
+
+                            <div class="flex-horizontal project-content">
+                                <img src="#" class="project-img" alt="Project Diagram">
+                                <div class="flex-vertical">
+                                    <h2 class="project-title">Visual Algorithms</h2>
+                                    <div class="flex-horizontal">
+                                        <p class="project-desc">An animated visualisation of data structures and advanced sorting algorithms.</p>
+                                        <div class="flex-vertical project-links">
+                                            <a href="#"><button>Demo</button></a>
+                                            <a href="https://github.com/madelinben/visual-algorithms"><button>Git</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br />
+
+                            <div class="flex-horizontal project-content">
+                                <img src="#" class="project-img" alt="Project Diagram">
+                                <div class="flex-vertical">
+                                    <h2 class="project-title">Projectile Simulator</h2>
+                                    <div class="flex-horizontal">
+                                        <p class="project-desc">Student homework application that implements Forms chart element to clearly visualise projectile algorithms and login system that utilises a normalised Access relational database.</p>
+                                        <div class="flex-vertical project-links">
+                                            <a href="#"><button>Demo</button></a>
+                                            <a href="https://github.com/madelinben/projectile-simulator"><button>Git</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
 
 
-
-
-
-
-            <section id="project-section">
-                <div class="section-title">Technical Projects</div>
-                <hr />
-
-            </section>
+                        </div>
+                </section>
+            </div>
 
             <br />
 
             <section id="experience-section">
-                <div class="section-title">Experience/Employment</div>
+                <div class="section-title">Experience</div>
                 <hr />
 
             </section>

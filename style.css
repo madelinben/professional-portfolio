@@ -169,7 +169,7 @@ section div {
     justify-content: space-around;
 }
 
-.section-interaction button {
+button { /*.section-interaction*/
     background-color: #f1f1f1; /*#f1f1f1; #f44336; #4CAF50;*/
     color: #333333;
     width: 125px;
@@ -179,9 +179,37 @@ section div {
     margin-top: 15px;
     cursor: pointer;
 }
-.section-interaction button:hover {
+button:hover { /*.section-interaction*/
     background-color: lightgrey;
 }
+
+
+
+/*PROJECT*/
+.project-title {
+    font-size: 1.3rem;
+    padding: 5px 0;
+}
+
+.project-desc {
+    font-size: 0.5rem;
+    width: 100%;
+}
+
+.project-links {
+    width: auto;
+}
+
+.project-links button {
+    width: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+
 
 
 

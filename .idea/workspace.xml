@@ -22,7 +22,6 @@
     <list default="true" id="d601f9ba-28f3-40ae-921d-4fb94055d735" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile-headshot.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/profile-photo.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +53,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7" />
   <component name="ProjectId" id="1nuNOlVJrkGYIf2Y88XhTQS4KPJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -84,6 +84,8 @@
       <updated>1612235990495</updated>
       <workItem from="1612235993490" duration="4321000" />
       <workItem from="1612930654071" duration="4432000" />
+      <workItem from="1613152111946" duration="414000" />
+      <workItem from="1613860901244" duration="1460000" />
     </task>
     <task id="LOCAL-00001" summary="Initial page structure and navigation organised.">
       <created>1612239553391</created>
@@ -115,10 +117,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial page structure and navigation organised." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="163" key="#PHP" timestamp="1612931566395">
+    <state x="314" y="163" key="#PHP" timestamp="1613860968558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="314" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1612931566395" />
+    <state x="314" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1613860968558" />
     <state x="434" y="447" key="NewPhpFileDialog" timestamp="1612236049296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -131,10 +133,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="199" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612239557837" />
-    <state x="724" y="0" width="452" height="1047" key="dock-window-1" timestamp="1613009211032">
+    <state x="731" y="0" width="444" height="1047" key="dock-window-1" timestamp="1613861395516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="724" y="0" width="452" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1613009211032" />
+    <state x="731" y="0" width="444" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1613861395516" />
+    <state x="25" y="244" key="run.anything.popup" timestamp="1613862354763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="25" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613862354763" />
     <state x="29" y="230" key="search.everywhere.popup" timestamp="1612992625050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
