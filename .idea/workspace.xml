@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d601f9ba-28f3-40ae-921d-4fb94055d735" name="Default Changelist" comment="Alternative bullets added.">
-      <change afterPath="$PROJECT_DIR$/profile-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d601f9ba-28f3-40ae-921d-4fb94055d735" name="Default Changelist" comment="Formatted Json source to store and access content dynamically.">
+      <change afterPath="$PROJECT_DIR$/json-handler.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613864000760</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Formatted Json source to store and access content dynamically.">
+      <created>1613866778437</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613866778437</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,25 +128,26 @@
     <MESSAGE value="Initial page structure and navigation organised." />
     <MESSAGE value="Project content styled." />
     <MESSAGE value="Alternative bullets added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Alternative bullets added." />
+    <MESSAGE value="Formatted Json source to store and access content dynamically." />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatted Json source to store and access content dynamically." />
   </component>
   <component name="WindowStateProjectService">
     <state x="314" y="163" key="#PHP" timestamp="1613860968558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="314" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1613860968558" />
-    <state x="434" y="447" key="NewPhpFileDialog" timestamp="1612236049296">
+    <state x="434" y="447" key="NewPhpFileDialog" timestamp="1613866871766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="434" y="447" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612236049296" />
+    <state x="434" y="447" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613866871766" />
     <state x="0" y="168" key="SettingsEditor" timestamp="1613011124273">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613011124273" />
-    <state x="199" y="243" key="Vcs.Push.Dialog.v2" timestamp="1613864002988">
+    <state x="199" y="243" key="Vcs.Push.Dialog.v2" timestamp="1613866779934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="199" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613864002988" />
+    <state x="199" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613866779934" />
     <state x="650" y="241" width="579" height="1026" key="dock-window-1" timestamp="1613866679796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
