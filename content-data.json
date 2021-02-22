@@ -32,9 +32,49 @@
     }
   ],
 
-  "experience": [{},{}],
-  "education": [{},{}],
-  "achievement": [{},{}],
+  "experience": [
+    {
+      "logo": "",
+      "title": "",
+      "employer": "",
+      "location": "",
+      "desc": "",
+      "date": ""
+    },{
+
+    }
+  ],
+
+  "education": [
+    {
+      "logo": "",
+      "school": "Liverpool John Moore's University",
+      "level": "Software Engineering BSc (Hons)",
+      "subject": [
+        {
+          "title": "",
+          "project": "",
+          "desc": "",
+          "doc": "",
+          "src": ""
+        }
+      ],
+      "date": ""
+    },{
+      "logo": "",
+      "school": "Fullbrook Sixth Form College",
+      "level": "A-Level",
+      "subject": [
+        {
+          "title": "",
+          "project": "",
+          "desc": "",
+          "doc": "",
+          "src": ""
+        }
+      ]
+    }
+  ],
 
   "contact": {
     "emailto": "ben.madelin@ntlworld.com",

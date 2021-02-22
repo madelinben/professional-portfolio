@@ -8,6 +8,21 @@
     text-transform: uppercase;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    /* POLKA DOT BACKGROUND */
+    background-image: radial-gradient(#dddddd 20%, transparent 20%),
+    radial-gradient(#e6e6e6 20%, transparent 20%); /* #f2f2f2 */
+    background-color: #ffffff;
+    background-position: 0 0, 50px 50px;
+    background-size: 15px 15px;
+}
+
 /*--- LAYOUT ---*/
 .wrapper {
     min-height: 100vh;
@@ -115,7 +130,6 @@ a:hover {
 /*SECTION CONTAINER*/
 .section {
     width: 100%;
-    background-color: #ffffff;
     padding-bottom: 15px;
 }
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 
     <!-- PAGE TITLE -->
-    <title>Professional Portfolio</title>
+    <title>BENMADELIN. Portfolio</title>
 
     <!-- SITE META DATA -->
     <meta name="keywords" content="professional, portfolio, software engineering, developer">
@@ -65,7 +65,7 @@
 
                             <div class="section-interaction">
                                 <a href="https://www.linkedin.com/in/madelinben/"><button>LinkedIn</button></a>
-                                <a href="https://github.com/madelinben/"><button>Git</button></a>
+                                <a href="https://github.com/madelinben/"><button>GitHub</button></a>
                             </div>
                         </div>
 
