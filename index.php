@@ -146,7 +146,7 @@
                                 </div>
                             </div>
 
-                            <br />
+                            <hr>
 
                             <div class="flex-horizontal project-content">
                                 <img src="#" class="project-img" alt="Project Diagram">
@@ -162,7 +162,7 @@
                                 </div>
                             </div>
 
-                            <br />
+                            <hr>
 
                             <div class="flex-horizontal project-content">
                                 <img src="#" class="project-img" alt="Project Diagram">
@@ -178,7 +178,7 @@
                                 </div>
                             </div>
 
-                            <br />
+                            <hr>
 
                             <div class="flex-horizontal project-content">
                                 <img src="#" class="project-img" alt="Project Diagram">

@@ -98,6 +98,12 @@ a:hover {
 
 
 /*ARRANGE ELEMENTS*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .flex-vertical {
     display: flex;
     flex-direction: column;
@@ -145,8 +151,8 @@ a:hover {
 }
 
 hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 15px;
+    border: 1px solid #333333;
+    margin: 15px 0;
 }
 
 .section-content {
@@ -202,7 +208,7 @@ button:hover { /*.section-interaction*/
 /*PROJECT*/
 .project-title {
     font-size: 1.3rem;
-    padding: 5px 0;
+    /*padding: 5px 0;*/
 }
 
 .project-desc {
