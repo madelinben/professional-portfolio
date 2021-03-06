@@ -59,7 +59,7 @@
                         </div>
 
                         <div class="section-content hidden">
-                            <p>Or quite simply a professional googler and part time wizard / miracle worker.</p>
+                            <p>Or to put it simply: professional Googler and part time wizard / miracle worker.</p>
 
                             <p>Check out my socials!</p>
 
@@ -226,11 +226,18 @@
 
             <br />
 
-            <section id="contact-section">
-                <div class="section-title">Contact</div>
-                <hr />
+            <div id="contact-section section" class="flex-vertical">
+                <section id="contact-container" class="section flex-horizontal">
+                    <div class="flex-vertical">
+                        <div class="section-title">Contact</div>
 
-            </section>
+                        <div class="section-content">
+
+
+
+                        </div>
+                </section>
+            </div>
 
         </main>
 

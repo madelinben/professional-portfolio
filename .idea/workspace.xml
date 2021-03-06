@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d601f9ba-28f3-40ae-921d-4fb94055d735" name="Default Changelist" comment="Tweaked styles and added background.">
+    <list default="true" id="d601f9ba-28f3-40ae-921d-4fb94055d735" name="Default Changelist" comment="Separated section content with styled hr.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature/content-information" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,6 +85,7 @@
       <workItem from="1612930654071" duration="4432000" />
       <workItem from="1613152111946" duration="414000" />
       <workItem from="1613860901244" duration="1460000" />
+      <workItem from="1615052075725" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="Initial page structure and navigation organised.">
       <created>1612239553391</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614009688359</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Separated section content with styled hr.">
+      <created>1614010245908</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614010245908</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +154,8 @@
     <MESSAGE value="Formatted Json source to store and access content dynamically." />
     <MESSAGE value="Implemented Json handler to read/write src content." />
     <MESSAGE value="Tweaked styles and added background." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tweaked styles and added background." />
+    <MESSAGE value="Separated section content with styled hr." />
+    <option name="LAST_COMMIT_MESSAGE" value="Separated section content with styled hr." />
   </component>
   <component name="WindowStateProjectService">
     <state x="314" y="163" key="#PHP" timestamp="1613860968558">
@@ -162,14 +170,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613011124273" />
-    <state x="199" y="243" key="Vcs.Push.Dialog.v2" timestamp="1614009690142">
+    <state x="199" y="243" key="Vcs.Push.Dialog.v2" timestamp="1614010247416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="199" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614009690142" />
-    <state x="650" y="241" width="579" height="1026" key="dock-window-1" timestamp="1613866679796">
+    <state x="199" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614010247416" />
+    <state x="769" y="0" width="492" height="1047" key="dock-window-1" timestamp="1615052306385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="241" width="579" height="1026" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1613866679796" />
+    <state x="769" y="0" width="492" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1615052306385" />
     <state x="25" y="244" key="run.anything.popup" timestamp="1613864608297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
