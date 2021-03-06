@@ -233,7 +233,28 @@
 
                         <div class="section-content">
 
+                            <form id="contact-form">
+                                <div class="flex-vertical">
+                                    <input type="hidden" name="contact_number">
 
+                                    <div class="flex-horizontal">
+                                        <label>Name</label>
+                                        <input type="text" name="user_name">
+                                    </div>
+
+                                    <div class="flex-horizontal">
+                                        <label>Email</label>
+                                        <input type="email" name="user_email">
+                                    </div>
+
+                                    <div class="flex-horizontal">
+                                        <label>Message</label>
+                                        <textarea name="message"></textarea>
+                                    </div>
+
+                                    <input type="submit" value="Send">
+                                </div>
+                            </form>
 
                         </div>
                 </section>
