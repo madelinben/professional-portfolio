@@ -229,11 +229,50 @@ button:hover { /*.section-interaction*/
 
 
 /*CONTACT*/
+input {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    background: white;
+    text-transform: initial;
+}
 
+input:focus { /*HIGHLIGHT*/
+    background-color: #dddddd;
+    outline: none;
+}
 
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    border: none;
+    background: white;
+    text-transform: initial;
+}
 
+textarea:focus {
+    background-color: #dddddd;
+    outline: none;
+}
 
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    opacity: 0.9;
+}
 
+.alt-btn {
+    background-color: #f44336;
+    color: white;
+    opacity: 0.9;
+}
+
+.submit-btn:hover, .alt-btn:hover {
+    opacity: 1 !important;
+}
 
 
 

@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d601f9ba-28f3-40ae-921d-4fb94055d735" name="Default Changelist" comment="Formatted additional mail headers for implementing html content.">
+    <list default="true" id="d601f9ba-28f3-40ae-921d-4fb94055d735" name="Default Changelist" comment="Mail input values are validated before the content is formatted and sent.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email-service.php" beforeDir="false" afterPath="$PROJECT_DIR$/email-service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <workItem from="1612930654071" duration="4432000" />
       <workItem from="1613152111946" duration="414000" />
       <workItem from="1613860901244" duration="1460000" />
-      <workItem from="1615052075725" duration="11357000" />
+      <workItem from="1615052075725" duration="12494000" />
     </task>
     <task id="LOCAL-00001" summary="Initial page structure and navigation organised.">
       <created>1612239553391</created>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615223650950</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Mail input values are validated before the content is formatted and sent.">
+      <created>1615226602482</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615226602482</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +210,8 @@
     <MESSAGE value="Implemented php mail function, establishing structure and formatting input values." />
     <MESSAGE value="Added escape case in if statement to redirect invalid entries." />
     <MESSAGE value="Formatted additional mail headers for implementing html content." />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatted additional mail headers for implementing html content." />
+    <MESSAGE value="Mail input values are validated before the content is formatted and sent." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mail input values are validated before the content is formatted and sent." />
   </component>
   <component name="WindowStateProjectService">
     <state x="314" y="163" key="#PHP" timestamp="1613860968558">
@@ -222,10 +230,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613011124273" />
-    <state x="199" y="243" key="Vcs.Push.Dialog.v2" timestamp="1615223652895">
+    <state x="199" y="243" key="Vcs.Push.Dialog.v2" timestamp="1615226604039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="199" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615223652895" />
+    <state x="199" y="243" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615226604039" />
     <state x="886" y="0" width="375" height="1047" key="dock-window-1" timestamp="1615217882331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
