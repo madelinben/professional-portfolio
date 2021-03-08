@@ -1,0 +1,84 @@
+{
+  "profile": {
+    "img": "profile-photo.jpeg",
+    "desc": "Enthusiastic and detail-oriented Software Engineering Undergraduate at Liverpool John Moore’s University offering a pro-active approach and driven to successfully finish projects and meet all assigned goals and objectives within schedule. Experienced and proficient using tools throughout the project development lifecycle. I am able to think critically and problematically, self-manage and collaborate effectively engaging as part of a productive team."
+  },
+
+  "project": [
+    {
+      "img": "",
+      "title": "Electronic Programme Guide",
+      "desc": "Dynamic ASCII grid can view live programme data and mark favourite shows for recording. Data is obtained utilising the Bleb API.",
+      "demo": "",
+      "git": "https://github.com/madelinben/programme-guide"
+    },{
+      "img": "",
+      "title": "Arcade Canvas",
+      "desc": "Responsive web application with account and rankings system, showcasing a collection of canvas mini-games.",
+      "demo": "",
+      "git": "https://github.com/madelinben/arcade-canvas"
+    },{
+      "img": "",
+      "title": "Visual Algorithms",
+      "desc": "An animated visualisation of data structures and advanced sorting algorithms.",
+      "demo": "",
+      "git": "https://github.com/madelinben/visual-algorithms"
+    },{
+      "img": "",
+      "title": "Projectile Simulator",
+      "desc": "Student homework application that implements Forms chart element to clearly visualise projectile algorithms and login system that utilises a normalised Access relational database.",
+      "demo": "",
+      "git": "https://github.com/madelinben/projectile-simulator"
+    }
+  ],
+
+  "experience": [
+    {
+      "logo": "",
+      "title": "",
+      "employer": "",
+      "location": "",
+      "desc": "",
+      "date": ""
+    },{
+
+    }
+  ],
+
+  "education": [
+    {
+      "logo": "",
+      "school": "Liverpool John Moore's University",
+      "level": "Software Engineering BSc (Hons)",
+      "subject": [
+        {
+          "title": "",
+          "project": "",
+          "desc": "",
+          "doc": "",
+          "src": ""
+        }
+      ],
+      "date": ""
+    },{
+      "logo": "",
+      "school": "Fullbrook Sixth Form College",
+      "level": "A-Level",
+      "subject": [
+        {
+          "title": "",
+          "project": "",
+          "desc": "",
+          "doc": "",
+          "src": ""
+        }
+      ]
+    }
+  ],
+
+  "contact": {
+    "emailto": "ben.madelin@ntlworld.com",
+
+  }
+
+}

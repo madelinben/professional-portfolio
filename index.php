@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 
     <!-- PAGE TITLE -->
-    <title>Professional Portfolio</title>
+    <title>BENMADELIN. Portfolio</title>
 
     <!-- SITE META DATA -->
     <meta name="keywords" content="professional, portfolio, software engineering, developer">
@@ -59,13 +59,13 @@
                         </div>
 
                         <div class="section-content hidden">
-                            <p>Or quite simply a professional googler and part time wizard / miracle worker.</p>
+                            <p>Or to put it simply: professional Googler and part time wizard / miracle worker.</p>
 
                             <p>Check out my socials!</p>
 
                             <div class="section-interaction">
                                 <a href="https://www.linkedin.com/in/madelinben/"><button>LinkedIn</button></a>
-                                <a href="https://github.com/madelinben/"><button>Git</button></a>
+                                <a href="https://github.com/madelinben/"><button>GitHub</button></a>
                             </div>
                         </div>
 
@@ -88,6 +88,17 @@
                                 <li>MySQL – JSON – XML</li>
                             </ul>
                         </div>
+
+                        <div class="section-content hidden"> <!--TITLE: Intercommunication Skills-->
+                            <ul class="skill-bullet">
+                                <li>Independently Driven</li>
+                                <li>Creative and Engaged Learner</li>
+                                <li>Interpersonal Communication</li>
+                                <li>Collaborative Problem Solver</li>
+                                <li>Critical Thinker</li>
+                                <li>Team Organisation</li>
+                            </ul>
+                        </div>
                     </section>
 
                     <section id="interest-container" class="flex-vertical">
@@ -98,6 +109,14 @@
                                 <li>React JS Framework</li>
                                 <li>REST API</li>
                                 <li>AWS Web Services</li>
+                            </ul>
+                        </div>
+
+                        <div class="section-content hidden"> <!--TITLE: Hobbies-->
+                            <ul class="skill-bullet">
+                                <li>Tech and Video Games</li>
+                                <li>Running, Karate</li>
+                                <li>Guitar</li>
                             </ul>
                         </div>
                     </section>
@@ -127,7 +146,7 @@
                                 </div>
                             </div>
 
-                            <br />
+                            <hr>
 
                             <div class="flex-horizontal project-content">
                                 <img src="#" class="project-img" alt="Project Diagram">
@@ -143,7 +162,7 @@
                                 </div>
                             </div>
 
-                            <br />
+                            <hr>
 
                             <div class="flex-horizontal project-content">
                                 <img src="#" class="project-img" alt="Project Diagram">
@@ -159,7 +178,7 @@
                                 </div>
                             </div>
 
-                            <br />
+                            <hr>
 
                             <div class="flex-horizontal project-content">
                                 <img src="#" class="project-img" alt="Project Diagram">
@@ -207,11 +226,45 @@
 
             <br />
 
-            <section id="contact-section">
-                <div class="section-title">Contact</div>
-                <hr />
+            <div id="contact-section section" class="flex-vertical">
+                <section id="contact-container" class="section flex-horizontal">
+                    <div class="flex-vertical">
+                        <div class="section-title">Contact</div>
 
-            </section>
+                        <div class="section-content">
+
+                            <!-- ERROR MESSAGE -->
+                            <?php
+                            if (isset($_GET['success'])) {
+                                if ($_GET['success'] == 'mailsent') {
+                                    echo '<div id="feedback-container center"><p class="success-message">Successfully Sent Email!</p></div>';
+                                }
+                            } else if (isset($_GET['error'])) {
+                                if ($_GET['error'] == 'empty') {
+                                    echo '<div id="feedback-container"><p class="error-message">Error, Required fields Empty!</p></div>';
+                                } else if ($_GET['error'] == 'mailaddress') {
+                                    echo '<div id="feedback-container"><p class="error-message">Error, Invalid Email Address!</p></div>';
+                                } else if ($_GET['error'] == 'mailcontent') {
+                                    echo '<div id="feedback-container"><p class="error-message">Error, Required content cannot contain special characters!</p></div>';
+                                }
+                            }
+                            ?>
+
+                            <!-- FORM -->
+                            <form id="contact-form" action="email-service.php" method="post">
+                                <div class="flex-vertical">
+                                    <input type="text" name="name" placeholder="Name">
+                                    <input type="email" name="email" placeholder="Email">
+                                    <input type="text" name="subject" placeholder="Subject">
+                                    <textarea name="message" placeholder="Message" oninput="this.style.height = '';this.style.height = this.scrollHeight + 'px'"></textarea>
+
+                                    <button type="submit" name="submit-email" class="submit-btn">Send</button>
+                                </div>
+                            </form>
+
+                        </div>
+                </section>
+            </div>
 
         </main>
 

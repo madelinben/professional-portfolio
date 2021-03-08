@@ -8,6 +8,21 @@
     text-transform: uppercase;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    /* POLKA DOT BACKGROUND */
+    background-image: radial-gradient(#dddddd 20%, transparent 20%),
+    radial-gradient(#e6e6e6 20%, transparent 20%); /* #f2f2f2 */
+    background-color: #ffffff;
+    background-position: 0 0, 50px 50px;
+    background-size: 15px 15px;
+}
+
 /*--- LAYOUT ---*/
 .wrapper {
     min-height: 100vh;
@@ -83,6 +98,12 @@ a:hover {
 
 
 /*ARRANGE ELEMENTS*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .flex-vertical {
     display: flex;
     flex-direction: column;
@@ -115,7 +136,6 @@ a:hover {
 /*SECTION CONTAINER*/
 .section {
     width: 100%;
-    background-color: #ffffff;
     padding-bottom: 15px;
 }
 
@@ -131,8 +151,8 @@ a:hover {
 }
 
 hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 15px;
+    border: 1px solid #333333;
+    margin: 15px 0;
 }
 
 .section-content {
@@ -188,7 +208,7 @@ button:hover { /*.section-interaction*/
 /*PROJECT*/
 .project-title {
     font-size: 1.3rem;
-    padding: 5px 0;
+    /*padding: 5px 0;*/
 }
 
 .project-desc {
@@ -208,8 +228,71 @@ button:hover { /*.section-interaction*/
 
 
 
+/*CONTACT*/
+#feedback-container {
+    width: 500px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
 
+.success-message {
+    background-color: #4CAF50;
+    color: white;
+}
 
+.error-message {
+    background-color: #f44336;
+    color: white;
+}
+
+input {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: 5px 0;
+    border: none;
+    background: white;
+    text-transform: initial;
+}
+
+input:focus { /*HIGHLIGHT*/
+    background-color: #dddddd;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 5px;
+    padding: 15px;
+    border: none;
+    background: white;
+    text-transform: initial;
+    resize: none;
+}
+
+textarea:focus {
+    background-color: #dddddd;
+    outline: none;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    opacity: 0.9;
+}
+
+.alt-btn {
+    background-color: #f44336;
+    color: white;
+    opacity: 0.9;
+}
+
+.submit-btn:hover, .alt-btn:hover {
+    opacity: 1 !important;
+}
 
 
 
