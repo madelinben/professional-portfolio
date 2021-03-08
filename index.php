@@ -243,15 +243,14 @@
                             ?>
 
                             <!-- FORM -->
-                            <form id="contact-form" action="email-service.js" method="post">
+                            <form id="contact-form" action="email-service.php" method="post">
                                 <div class="flex-vertical">
-                                    <input type="text" name="user" placeholder="Name" required>
-                                    <input type="email" name="email" placeholder="Email" required>
+                                    <input type="text" name="name" placeholder="Name">
+                                    <input type="email" name="email" placeholder="Email">
+                                    <input type="text" name="subject" placeholder="Subject">
+                                    <textarea name="message" placeholder="Message"></textarea>
 
-                                    <input type="text" name="subject" placeholder="Subject" required>
-                                    <textarea name="message" placeholder="Message" required></textarea>
-
-                                    <input type="submit" name="submit-email" value="Send" class="submit-btn">
+                                    <button type="submit" name="submit-email" class="submit-btn">Send</button>
                                 </div>
                             </form>
 
