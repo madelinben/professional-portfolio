@@ -4,7 +4,7 @@
         try {
             // OBTAIN FORM INPUT VALUES
             $name = $_POST['name'] ?? 'UNKNOWN RECIPIENT';
-            $subject = $_POST['subject'];
+            $subject = $_POST['subject'] ?? 'QUERY FROM MADELINBEN.CO.UK';
             $message = $_POST['message'];
 
             // SET MAIL RECIPIENTS
@@ -12,9 +12,19 @@
             $mailFrom = $_POST['email'];
 
             // VALIDATE FORM
-                // CHECK EMPTY FIELDS
-                // CHECK VALID EMAIL
-                // CHECK SPECIAL CHARACTERS
+            if (empty($message) || empty($mailFrom)) { // CHECK EMPTY FIELDS
+                header('Location: index.php?mail=empty&msg=' . $message . '&from=' . $mailFrom);
+                exit();
+            } else {
+                if (!filter_var($mailFrom, FILTER_VALIDATE_EMAIL)) { // CHECK VALID EMAIL
+                    header('Location: index.php?error=mailaddress&msg=' . $message);
+                    exit();
+                }
+                if ((!preg_match('/^[a-zA-Z0-9]*$/', $name)) || (!preg_match('/^[a-zA-Z0-9]*$/', $subject)) || (!preg_match('/^[a-zA-Z0-9]*$/', $message))) { // CHECK SPECIAL CHARACTERS
+                    header('Location: index.php?error=mailcontent&from=' . $mailFrom);
+                    exit();
+                }
+            }
 
             // FORMAT MAIL HEADERS
             $headers = 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
