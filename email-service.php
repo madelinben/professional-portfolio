@@ -13,7 +13,7 @@
 
             // VALIDATE FORM
             if (empty($message) || empty($mailFrom)) { // CHECK EMPTY FIELDS
-                header('Location: index.php?mail=empty&msg=' . $message . '&from=' . $mailFrom);
+                header('Location: index.php?error=empty&msg=' . $message . '&from=' . $mailFrom);
                 exit();
             } else {
                 if (!filter_var($mailFrom, FILTER_VALIDATE_EMAIL)) { // CHECK VALID EMAIL

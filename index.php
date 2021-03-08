@@ -235,9 +235,17 @@
 
                             <!-- ERROR MESSAGE -->
                             <?php
-                            if (isset($_GET['error'])) {
-                                if ($_GET['error'] == 'email') {
-                                    echo '<p style="float:right;color:red;">Error Sending Email!</p>';
+                            if (isset($_GET['success'])) {
+                                if ($_GET['success'] == 'mailsent') {
+                                    echo '<div id="feedback-container center"><p class="success-message">Successfully Sent Email!</p></div>';
+                                }
+                            } else if (isset($_GET['error'])) {
+                                if ($_GET['error'] == 'empty') {
+                                    echo '<div id="feedback-container"><p class="error-message">Error, Required fields Empty!</p></div>';
+                                } else if ($_GET['error'] == 'mailaddress') {
+                                    echo '<div id="feedback-container"><p class="error-message">Error, Invalid Email Address!</p></div>';
+                                } else if ($_GET['error'] == 'mailcontent') {
+                                    echo '<div id="feedback-container"><p class="error-message">Error, Required content cannot contain special characters!</p></div>';
                                 }
                             }
                             ?>
