@@ -233,26 +233,25 @@
 
                         <div class="section-content">
 
-                            <form id="contact-form">
+                            <!-- ERROR MESSAGE -->
+                            <?php
+                            if (isset($_GET['error'])) {
+                                if ($_GET['error'] == 'email') {
+                                    echo '<p style="float:right;color:red;">Error Sending Email!</p>';
+                                }
+                            }
+                            ?>
+
+                            <!-- FORM -->
+                            <form id="contact-form" action="email-service.js" method="post">
                                 <div class="flex-vertical">
-                                    <input type="hidden" name="contact_number">
+                                    <input type="text" name="user" placeholder="Name" required>
+                                    <input type="email" name="email" placeholder="Email" required>
 
-                                    <div class="flex-horizontal">
-                                        <label>Name</label>
-                                        <input type="text" name="user_name">
-                                    </div>
+                                    <input type="text" name="subject" placeholder="Subject" required>
+                                    <textarea name="message" placeholder="Message" required></textarea>
 
-                                    <div class="flex-horizontal">
-                                        <label>Email</label>
-                                        <input type="email" name="user_email">
-                                    </div>
-
-                                    <div class="flex-horizontal">
-                                        <label>Message</label>
-                                        <textarea name="message"></textarea>
-                                    </div>
-
-                                    <input type="submit" value="Send">
+                                    <input type="submit" name="submit-email" value="Send" class="submit-btn">
                                 </div>
                             </form>
 
