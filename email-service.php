@@ -35,4 +35,7 @@
             echo 'Register Error: ' . $e->getMessage();
         }
 
+    } else {
+        header('Location: index.php');
+        exit();
     }
