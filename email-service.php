@@ -16,11 +16,44 @@
                 // CHECK VALID EMAIL
                 // CHECK SPECIAL CHARACTERS
 
-            // FORMAT MAIL HEADER
-            $headers = 'From: ' . $mailFrom;
+            // FORMAT MAIL HEADERS
+            $headers = 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+            $headers .= 'To: Benjamin Madelin <' . $mailTo . '>' . "\r\n";
+            $headers .= 'From: ' . $name . ' <' . $mailFrom . '>' . "\r\n";
+
+
 
             // FORMAT MAIL CONTENT
             $content = 'You have received an e-mail from ' . $name . '.\n\n' . $message;
+
+            $formattedContent = <<<CONTENT
+
+                <html>
+                    <head>
+                        <title>SUBJECT</title>
+                        
+                    <style>
+                        /*STYLES*/
+                    </style>
+                    </head>
+                    
+                    <body>
+                        <p>MESSAGE</p>
+                        
+                        <table>
+                            <tr>
+                                <th>COL</th>
+                            </tr>
+                            <tr>
+                                <td>ROWCELL</td>
+                            </tr>
+                        </table>
+                    </body>
+                </html>
+
+CONTENT;
+
+
 
             // EXECUTE STATEMENT
             mail($mailTo, $subject, $content, $headers);
@@ -32,7 +65,7 @@
 
         } catch (Exception $e) {
             // ERROR FEEDBACK
-            echo 'Register Error: ' . $e->getMessage();
+            echo 'Email Error: ' . $e->getMessage();
         }
 
     } else {
