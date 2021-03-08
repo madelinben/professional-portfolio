@@ -248,7 +248,7 @@
                                     <input type="text" name="name" placeholder="Name">
                                     <input type="email" name="email" placeholder="Email">
                                     <input type="text" name="subject" placeholder="Subject">
-                                    <textarea name="message" placeholder="Message"></textarea>
+                                    <textarea name="message" placeholder="Message" oninput="this.style.height = '';this.style.height = this.scrollHeight + 'px'"></textarea>
 
                                     <button type="submit" name="submit-email" class="submit-btn">Send</button>
                                 </div>
