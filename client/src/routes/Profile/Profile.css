@@ -1,0 +1,21 @@
+.about-container {
+    width: 90%;
+    max-width: 700px;
+}
+
+.about-container p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 640px) {
+    .about-container {
+        width: 80vw!important;
+    }
+}
+
+@media screen and (max-width: 1007px) {
+    .about-container {
+        width: 75%;
+    }
+}

@@ -1,0 +1,127 @@
+.search-container {
+	width: 90%;
+}
+
+input[type=search] {
+    border-radius: 15px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: linear-gradient(to right, var(--text-title), var(--text-title));
+    background-position: calc(100% - 3rem) 0;
+    background-size: 1.75px 100%;
+    background-repeat: no-repeat;
+}
+
+input[type=search]:focus {
+    background-image: linear-gradient(to right, var(--text-interactive), var(--text-interactive));
+    background-position: calc(100% - 3rem) 0;
+    background-size: 1.75px 100%;
+    background-repeat: no-repeat;
+    border-color: var(--text-interactive);
+    outline: 0;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+	height: 1rem;
+	width: 1rem;
+	margin-right: 0px;
+	background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg) no-repeat 50% 50%;
+	background-position: calc(100%) center;
+	background-size: contain;
+	opacity: 1;
+	filter: invert(1);
+	pointer-events: pointer;
+	cursor: pointer;
+}
+
+.gallery-container {
+    margin: 0 auto;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+	/* grid-template-rows: 1fr; */
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+
+}
+
+.card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: var(--elem-primary);
+	/* background-color: mediumpurple; */
+
+	border-radius: 25px;
+	/* border-collapse: separate; */
+	/* perspective: 1px; */
+	overflow: hidden;
+	border: 2px solid var(--elem-secondary);
+}
+
+.card-header,
+.card-footer {
+	background-color: var(--elem-secondary);
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-title,
+.card-footer {
+	padding: 0.75rem;
+	min-height: 2rem;
+}
+
+.card-description {
+	margin: 1rem;
+}
+
+.card-footer {
+	display: flex;
+	justify-content: space-around;
+	/* color: var(--text-primary); */
+}
+
+.card-footer > span > a {
+	text-decoration: none;
+	color: var(--text-primary);
+}
+
+.card-footer > span > a:hover {
+	color: var(--text-interactive);
+}
+
+.project-tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-tech-stack span {
+    margin: 0 0 15px 15px;
+    opacity: 0.85;
+    cursor: pointer;
+    background-color: var(--text-title);
+    border-radius: 25px;
+    padding: 0 0.5rem;
+    padding-bottom: 0.2rem;
+}
+
+.project-tech-stack span a {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.project-tech-stack span:hover {
+    opacity: 1;
+}
