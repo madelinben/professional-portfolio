@@ -29,11 +29,6 @@ ReactDOM.render(
     <React.StrictMode>
         <Router>
             <div id='layout-wrapper' /* data-theme={theme} */>
-                <header>
-                    <a id='skip-nav' href='#content-wrapper'>skip navigation</a>
-                    <div id='nav-wrapper'><Navbar /></div>
-                </header>
-
                 <div id='bubble-background'>
                     <span></span>
                     <span></span>
@@ -42,7 +37,12 @@ ReactDOM.render(
                     <span></span>
                     <span></span>
                 </div>
+                
+                <header id='header-wrapper'>
+                    <a id='skip-nav' href='#content-wrapper'>skip navigation</a>
+                </header>
 
+                <div id='nav-wrapper'><Navbar /></div>
                 <div id='content-wrapper'>
                     <Switch>
                         <Route path="/" exact component={Profile} />
@@ -52,10 +52,9 @@ ReactDOM.render(
                         <Route path="*" component={NotFound} />
                     </Switch>
 
-                    <br />
-                    <section id='footer'>
-                        <p>&copy; Benjamin Madelin {new Date().getFullYear()}</p>
-                    </section>
+                    <footer id='footer-wrapper'>
+                            <p>&copy; Benjamin Madelin {new Date().getFullYear()}</p>
+                    </footer>
                 </div>
             </div>
         </Router>
