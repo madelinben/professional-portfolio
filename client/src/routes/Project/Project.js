@@ -17,7 +17,7 @@ function Project() {
     <>
         <Hero />
 
-        <section id='search'>
+        <section aria-label='project search bar' id='search'>
             <div className='search-container'>
                 <div className='styled-input'>
                     <input type='search' id='search' placeholder='' name='search' value={search} onChange={e => setSearch(e.target.value)} required/>
@@ -26,7 +26,7 @@ function Project() {
             </div>
         </section>
 
-        <section id='gallery'>
+        <section aria-label='project result gallery' id='gallery'>
             <div className='gallery-container'>
                 <FilterResults
                     value={search}

@@ -32,7 +32,7 @@ function ScrollToTop() {
     return (
     <>
         {isVisible ? (
-            <div className='scroll-container'>
+            <div aria-label='scroll to top' className='scroll-container'>
                 <ul className='scroll-items'>
                     <li><div className='horizontal-line'></div></li>
                     <li className='scroll-text'>

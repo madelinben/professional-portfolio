@@ -9,11 +9,11 @@ function Contact() {
     <>
         <Hero />
 
-        <section id='services'>
+        <section aria-label='services' id='services'>
             <SectionTitle title={'Services'} />
         </section>
 
-        <section id='contact'>
+        <section aria-label='contact form' id='contact'>
             <SectionTitle title={'Lets Talk'} />
             <ContactForm />
         </section>

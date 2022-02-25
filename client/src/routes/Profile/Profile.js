@@ -13,7 +13,7 @@ function Profile() {
     <>
         <Hero />
 
-      <section id='about'>
+      <section aria-label='about me' id='about'>
         <SectionTitle title={'About Me'} />
 
         <div className='about-container'>
@@ -38,11 +38,11 @@ function Profile() {
         <button><a href='#' target='_blank' rel='noopener noreferrer'>Download Resume</a></button>
       </section>
 
-      <section id='skill'>
+      <section aria-label='proficient skills' id='skill'>
         <SectionTitle title={'Proficient Skills'} />
       </section>
 
-      <section id='experience'>
+      <section aria-label='professional experience' id='experience'>
         <SectionTitle title={'Experience'} />
         <Carousel data={experienceData} />
       </section>

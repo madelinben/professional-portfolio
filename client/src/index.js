@@ -27,18 +27,22 @@ import NotFound from './routes/NotFound/NotFound';
 
 ReactDOM.render(
     <React.StrictMode>
-        <div id='layout-wrapper' /* data-theme={theme} */>
-            <div id='bubble-background'>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+        <Router>
+            <div id='layout-wrapper' /* data-theme={theme} */>
+                <header>
+                    <a id='skip-nav' href='#content-wrapper'>skip navigation</a>
+                    <div id='nav-wrapper'><Navbar /></div>
+                </header>
 
-            <Router>
-                <div id='nav-wrapper'><Navbar /></div>
+                <div id='bubble-background'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
                 <div id='content-wrapper'>
                     <Switch>
                         <Route path="/" exact component={Profile} />
@@ -53,8 +57,8 @@ ReactDOM.render(
                         <p>&copy; Benjamin Madelin {new Date().getFullYear()}</p>
                     </section>
                 </div>
-            </Router>
-        </div>
+            </div>
+        </Router>
     </React.StrictMode>,
     document.getElementById('root')
 );

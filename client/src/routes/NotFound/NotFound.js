@@ -8,7 +8,7 @@ function NotFound() {
     <>
         <Hero />
 
-        <section id='services'>
+        <section aria-label='error page' id='error'>
             <SectionTitle title={'Whoops!'} />
             <h1>Error 404: Page Not Found.</h1>
         </section>
