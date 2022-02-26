@@ -13,6 +13,7 @@
     "react-dom": "^17.0.2",
     "react-filter-search": "^1.1.11",
     "react-icons": "^4.3.1",
+    "react-router": "^6.2.1",
     "react-router-dom": "^5.3.0",
     "react-scripts": "^4.0.3",
     "react-transition-group": "^4.4.2",

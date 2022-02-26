@@ -1,9 +1,11 @@
 import React, {useState, useEffect} from 'react';
+import {useLocation} from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 
 import './ScrollToTop.css';
 
 function ScrollToTop() {
+    const {pathname} = useLocation();
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
@@ -11,6 +13,10 @@ function ScrollToTop() {
             toggleVisibility();
         });
     }, []);
+
+    useEffect(() => {
+        handleScroll();
+    }, [pathname]);
 
     const toggleVisibility = () => {
         const scrollOffset = document.getElementById('content-wrapper').scrollTop;
