@@ -7,7 +7,7 @@ import './Hero.css';
 
 function Hero() {
     return (
-        <section id='hero'>
+        <section aria-label='welcome hero' id='hero'>
           <div id='hero-container' className='flex-horizontal'>
               <div className="hero-image">
                   <img src={HeroImg} alt="" />
