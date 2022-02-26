@@ -1,4 +1,6 @@
 import React from 'react';
+import * as FaIcons from 'react-icons/fa';
+import * as SiIcons from 'react-icons/si';
 
 import Hero from '../../components/Hero/Hero';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
@@ -29,17 +31,129 @@ function Profile() {
             Motivated to expand my knowledge in different areas of software development. <br />
           </p>
           <br />
-          <p> 
-            I am able self-manage and think critically, problematically,
-            whilst engaging collaboratively as part of a productive and efficient team. 
+          <p>
+            My strengths and passions are in <strong>Data Visualisation</strong> and <strong>Progressive Web Apps</strong>, specifically with Node JS and <strong>React</strong>. 
+            Using Bootstrap to create responsive sites with accessibility always in mind. 
+            Implementing third party APIs with Ajax, to create dynamic and interactive applications. 
+          </p>
+          <br />
+          <p>
+            I am constantly learning. With the ability to self-manage, think critically and problematically,
+            and engage collaboratively as part of a productive and efficient team. 
           </p>
         </div>
 
-        <button><a href='#' target='_blank' rel='noopener noreferrer'>Download Resume</a></button>
+        <button /* onclick={window.open()} */><a href='../../assets/data/ben-madelin-resume.pdf' /* target='_blank' rel='noopener noreferrer' */ download>Download Resume</a></button>
       </section>
 
       <section aria-label='proficient skills' id='skill'>
         <SectionTitle title={'Proficient Skills'} />
+
+        {/* TOOLS */}
+        <div className='skill-wrapper'>
+          <div className='skill-container'>
+            <div className='skill-title'></div>
+            <div className='skill-badge'>
+              <FaIcons.FaGitAlt />
+            </div>
+          </div>
+
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <FaIcons.FaFigma />
+            </div>
+          </div>
+        {/* </div> */}
+
+        {/* OOP */}
+        {/* FaPython SiCsharp SiCplusplus */}
+
+        {/* CORE */}
+        {/* <div className='skill-wrapper'> */}
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <FaIcons.FaHtml5 />
+            </div>
+          </div>
+
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <FaIcons.FaCss3Alt />
+            </div>
+          </div>
+
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <SiIcons.SiJavascript /> {/* DiJavascript */}
+            </div>
+          </div>
+
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <SiIcons.SiJquery />
+            </div>
+          </div>
+
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <FaIcons.FaBootstrap />
+            </div>
+          </div>
+        {/* </div> */}
+
+        {/* PWA */}
+        {/* <div className='skill-wrapper'> */}
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <FaIcons.FaNodeJs />
+            </div>
+          </div>
+
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <FaIcons.FaReact />
+            </div>
+          </div>
+
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <SiIcons.SiExpress />
+            </div>
+          </div>
+
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <SiIcons.SiRedux />
+            </div>
+          </div>
+
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <SiIcons.SiJsonwebtokens />
+            </div>
+          </div>
+        {/* </div> */}
+
+        {/* DATABASE */}
+        {/* <div className='skill-wrapper'> */}
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <SiIcons.SiSequelize />
+            </div>
+          </div>
+
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <SiIcons.SiMongodb />
+            </div>
+          </div>
+
+          <div className='skill-container'>
+            <div className='skill-badge'>
+              <SiIcons.SiMysql /> {/* GrMysql */}
+            </div>
+          </div>
+        </div>
       </section>
 
       <section aria-label='professional experience' id='experience'>

@@ -19,3 +19,40 @@
         width: 75%;
     }
 }
+
+.skill-wrapper {
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 90%;
+	max-width: 900px;
+	margin: 3em auto;
+	text-align: center;
+}
+
+.skill-container {
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem 1rem auto;
+    padding:30px 10px;
+    background: var(--elem-glass);
+    border-radius: 30%;
+    border: 2px solid var(--text-title);
+    box-shadow: 0 5px 10px var(--elem-glass);
+    cursor: pointer;
+}
+
+.skill-container:hover {
+    top: -4px;
+}
+
+.skill-container .skill-badge {
+    font-size: 2.6em;
+    margin-top: 13px;
+}
