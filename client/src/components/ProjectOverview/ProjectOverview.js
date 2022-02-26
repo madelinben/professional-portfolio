@@ -9,7 +9,7 @@ import './ProjectOverview.css';
 
 function ProjectOverview() {
     return (
-        <section id='project'>
+        <section aria-label='recent projects' id='project'>
             <SectionTitle title={'Recent Activity'} />
 
             {projectData && projectData.slice(0,3).map((project, index) => (

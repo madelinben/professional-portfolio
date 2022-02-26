@@ -13,7 +13,7 @@ function Navbar() {
     return (
     <>
         <IconContext.Provider value={{color: 'var(--text-primary)'}}>
-            <nav className='nav-container'>
+            <nav aria-label='navigation links' className='nav-container'>
                 <ul className='nav-items'>
                     <li><div className='vertical-line'></div></li>
                     {navData && navData.map((item, index) => {
@@ -32,7 +32,7 @@ function Navbar() {
                 </ul>
             </nav>
 
-            <div className='social-container'>
+            <div aria-label='social links' className='social-container'>
                 <ul className='social-items'>
                     <li><div className='horizontal-line'></div></li>
                     {contactData && contactData.map((item, index) => {
