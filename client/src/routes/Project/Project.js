@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import FilterResults from 'react-filter-search';
 // import * as FaIcons from 'react-icons/fa';
 
-import Hero from '../../components/Hero/Hero';
 // import SectionTitle from '../../components/SectionTitle/SectionTitle';
 // import ProjectCard from '../../components/ProjectCard/ProjectCard';
 
@@ -15,8 +14,6 @@ function Project() {
 
     return (
     <>
-        <Hero />
-
         <section aria-label='project search bar' id='search'>
             <div className='search-container'>
                 <div className='styled-input'>
@@ -51,7 +48,7 @@ function Project() {
                                 <div>
                                     <div className='card-content'>
                                         <p className='project-tech-stack'>
-                                            {i.techStack.map((tech, index) => (
+                                            {i.tech.map((tech, index) => (
                                                 <span key={index}>
                                                     <a href={tech.src}>{tech.title}</a>
                                                 </span>
