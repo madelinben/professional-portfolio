@@ -1,7 +1,6 @@
 import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 
-import Hero from '../../components/Hero/Hero';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import ContactForm from '../../components/ContactForm/ContactForm';
 import './Contact.css';
@@ -9,8 +8,6 @@ import './Contact.css';
 function Contact() {
     return (
     <>
-        <Hero />
-
         <section aria-label='services' id='services'>
             <SectionTitle title={'Services'} />
 

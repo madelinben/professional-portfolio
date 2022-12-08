@@ -41,15 +41,16 @@
     height: 4rem;
     margin: 1rem 1rem auto;
     padding:30px 10px;
-    background: var(--elem-glass);
+    background: var(--glass-background);
     border-radius: 30%;
     border: 2px solid var(--text-title);
-    box-shadow: 0 5px 10px var(--elem-glass);
+    box-shadow: 0 5px 10px var(--glass-background);
     cursor: pointer;
 }
 
 .skill-container:hover {
     top: -4px;
+    border: 2px solid var(--text-interactive);
 }
 
 .skill-container .skill-badge {

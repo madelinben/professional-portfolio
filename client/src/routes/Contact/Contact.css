@@ -11,7 +11,7 @@
     border-radius: 12px;
     border: 2px solid var(--text-title);
     padding:30px 10px;
-    box-shadow: 0 5px 10px var(--elem-glass);
+    box-shadow: 0 5px 10px var(--glass-background);
     cursor: pointer;
     /* transition: all 0.4s ease; */
 }
@@ -25,13 +25,13 @@
 .service-container .service-icon {
     height:50px;
     width:50px;
-    background-color: var(--elem-glass);
+    background-color: var(--glass-background);
     border-radius: 50%;
     border: 2px solid var(--text-title);
     text-align: center;
     line-height: 50px;
     font-size: 18px;
-    color:var(--white-color);
+    color: var(--text-primary);
     margin:0 auto 10px auto;
     transition: all 0.4s ease;
 }
@@ -49,7 +49,7 @@
 } */
 
 /* MEDIUM: TABLET */
-@media only screen and (max-width: 1432px) { /* 1007px */
+@media only screen and (min-width: 640px) { /* max-width: 1432px 1007px */
     #services .service-wrapper .service-container {
         width: calc(100% / 2 - 2rem);
     }

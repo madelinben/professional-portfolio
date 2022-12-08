@@ -2,7 +2,6 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as SiIcons from 'react-icons/si';
 
-import Hero from '../../components/Hero/Hero';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import Carousel from '../../components/Carousel/Carousel';
 import ProjectOverview from '../../components/ProjectOverview/ProjectOverview';
@@ -13,8 +12,6 @@ import './Profile.css';
 function Profile() {
     return (
     <>
-        <Hero />
-
       <section aria-label='about me' id='about'>
         <SectionTitle title={'About Me'} />
 

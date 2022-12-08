@@ -12,7 +12,7 @@ function ProjectOverview() {
         <section aria-label='recent projects' id='project'>
             <SectionTitle title={'Recent Activity'} />
 
-            {projectData && projectData.slice(0,3).map((project, index) => (
+            {projectData && projectData.filter((item) => item.fav === true).slice(0,3).map((project, index) => (
                 <div className='project-wrapper'>
                     <div key={index} className='project-container animated-border'>
                         <div className='project-image'>
@@ -38,7 +38,7 @@ function ProjectOverview() {
                                 {project.desc}
                             </p>
                             <p className='project-tech-stack'>
-                                {project.techStack.map((tech, index) => (
+                                {project.tech.map((tech, index) => (
                                     <span key={index}>
                                         <a href={tech.src}>{tech.title}</a>
                                     </span>
