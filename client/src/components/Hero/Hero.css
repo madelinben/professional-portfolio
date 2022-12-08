@@ -11,8 +11,12 @@
 }
 
 .text-small {
-    color: var(--text-title);
+    color: var(--text-interactive); /* --text-title */
     margin-bottom: 0.2rem;
+}
+
+.Typewriter__wrapper {
+    color: var(--text-secondary);
 }
 
 .text-title {
