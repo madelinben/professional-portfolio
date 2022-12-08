@@ -8,15 +8,19 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "axios": "^0.21.3",
+    "axios": "^0.21.4",
+    "dotenv": "^16.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-filter-search": "^1.1.11",
     "react-icons": "^4.3.1",
+    "react-markdown": "^8.0.3",
     "react-router": "^6.2.1",
     "react-router-dom": "^5.3.0",
     "react-scripts": "^4.0.3",
     "react-transition-group": "^4.4.2",
+    "rehype-raw": "^6.1.1",
+    "remark-gfm": "^3.0.1",
     "sass": "^1.43.4",
     "styled-components": "^5.3.3",
     "swiper": "^6.8.4",
@@ -47,5 +51,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-webpack-plugin": "^0.1.2",
+    "install-peers": "^1.0.4",
+    "react-error-overlay": "^6.0.9"
   }
 }
